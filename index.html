@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculo Tech | Dados Ficticios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegacao principal">
+      <a class="brand" href="#inicio">CV Tech</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero section-shell">
+      <aside class="profile-card" aria-label="Resumo do perfil">
+        <div class="avatar" aria-hidden="true">
+          <span>GT</span>
+        </div>
+        <p class="eyebrow">Tecnologia & Dados</p>
+        <h1>Gabriel Torres</h1>
+        <p class="role">Desenvolvedor Full Stack Junior</p>
+
+        <div class="contact-list" id="contato">
+          <a href="mailto:gabriel.torres@email.com">gabriel.torres@email.com</a>
+          <a href="tel:+5584999999999">+55 84 99999-9999</a>
+          <span>Natal, RN</span>
+          <span>LinkedIn / GitHub: @gabrieltorres</span>
+        </div>
+      </aside>
+
+      <div class="hero-content">
+        <p class="section-kicker">Curriculo online</p>
+        <h2>Construo interfaces, automacoes e solucoes digitais com foco em produto.</h2>
+        <p>
+          Profissional ficticio da area de tecnologia, com experiencia em desenvolvimento web,
+          analise de dados e melhoria de processos. Este modelo esta pronto para receber seus
+          dados reais depois.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#skills">Ver skills</a>
+          <a class="button secondary" href="#experiencia">Experiencia</a>
+        </div>
+
+        <div class="metrics-grid" aria-label="Indicadores profissionais">
+          <article>
+            <strong data-counter="18">0</strong>
+            <span>Projetos entregues</span>
+          </article>
+          <article>
+            <strong data-counter="4">0</strong>
+            <span>Anos de estudo</span>
+          </article>
+          <article>
+            <strong data-counter="7">0</strong>
+            <span>Tecnologias principais</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-shell" id="sobre">
+      <div>
+        <p class="section-kicker">Resumo profissional</p>
+        <h2>Perfil orientado a aprendizado continuo e resolucao de problemas.</h2>
+      </div>
+      <p>
+        Atuo em projetos web ficticios envolvendo HTML, CSS, JavaScript, React, Node.js e bancos
+        de dados. Tenho interesse em criar sistemas simples de usar, bem organizados e com boa
+        experiencia para o usuario final.
+      </p>
+    </section>
+
+    <section class="skills section-shell" id="skills">
+      <div class="section-heading">
+        <p class="section-kicker">Habilidades</p>
+        <h2>Graficos de skills</h2>
+        <p>Os valores abaixo sao ficticios e podem ser ajustados no arquivo JavaScript.</p>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skill-bars" aria-label="Grafico de barras de habilidades">
+          <div class="skill-item" data-skill="HTML/CSS" data-level="92">
+            <div class="skill-row">
+              <span>HTML/CSS</span>
+              <strong>92%</strong>
+            </div>
+            <div class="bar"><span></span></div>
+          </div>
+          <div class="skill-item" data-skill="JavaScript" data-level="86">
+            <div class="skill-row">
+              <span>JavaScript</span>
+              <strong>86%</strong>
+            </div>
+            <div class="bar"><span></span></div>
+          </div>
+          <div class="skill-item" data-skill="React" data-level="78">
+            <div class="skill-row">
+              <span>React</span>
+              <strong>78%</strong>
+            </div>
+            <div class="bar"><span></span></div>
+          </div>
+          <div class="skill-item" data-skill="Node.js" data-level="72">
+            <div class="skill-row">
+              <span>Node.js</span>
+              <strong>72%</strong>
+            </div>
+            <div class="bar"><span></span></div>
+          </div>
+          <div class="skill-item" data-skill="SQL" data-level="68">
+            <div class="skill-row">
+              <span>SQL</span>
+              <strong>68%</strong>
+            </div>
+            <div class="bar"><span></span></div>
+          </div>
+        </div>
+
+        <article class="radar-card">
+          <div>
+            <p class="section-kicker">Mapa tecnico</p>
+            <h3>Visao geral</h3>
+          </div>
+          <canvas id="skillRadar" width="420" height="420" aria-label="Grafico radar de competencias"></canvas>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section-shell" id="experiencia">
+      <div class="section-heading">
+        <p class="section-kicker">Experiencia profissional</p>
+        <h2>Trajetoria ficticia</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span>2024 - Atual</span>
+          <h3>Desenvolvedor Web Junior | TechNova Labs</h3>
+          <p>
+            Desenvolvimento de paginas responsivas, componentes reutilizaveis e integracoes
+            simples com APIs REST.
+          </p>
+        </article>
+        <article class="timeline-item">
+          <span>2022 - 2024</span>
+          <h3>Estagiario em TI | DataBridge Solutions</h3>
+          <p>
+            Apoio em automacoes internas, organizacao de dados em planilhas e suporte a usuarios.
+          </p>
+        </article>
+        <article class="timeline-item">
+          <span>2021 - 2022</span>
+          <h3>Projetos pessoais e estudos</h3>
+          <p>
+            Criacao de landing pages, dashboards basicos e pequenos sistemas para praticar logica
+            de programacao.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="education section-shell">
+      <div>
+        <p class="section-kicker">Formacao</p>
+        <h2>Educacao e certificacoes</h2>
+      </div>
+      <div class="cards-grid">
+        <article>
+          <span>2023 - 2026</span>
+          <h3>Analise e Desenvolvimento de Sistemas</h3>
+          <p>Instituicao ficticia de ensino superior.</p>
+        </article>
+        <article>
+          <span>2024</span>
+          <h3>JavaScript Moderno</h3>
+          <p>Curso livre com foco em DOM, APIs e boas praticas.</p>
+        </article>
+        <article>
+          <span>2025</span>
+          <h3>Fundamentos de Cloud</h3>
+          <p>Conceitos de deploy, monitoramento e infraestrutura basica.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Curriculo online ficticio inspirado em layout classico com foto e secoes laterais.</p>
+    <a href="#inicio">Voltar ao topo</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
